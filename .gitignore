@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# Public input data (see README.md for sources)
+dados/alta_confiabilidade/
+dados/baixa_confiabilidade/
+dados/referencias/
+dados/remapeamento_bruto/
+
+# Rebuildable cache of the supplementary analyses
+analises_revisao/_cache/

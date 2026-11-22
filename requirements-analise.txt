@@ -1,0 +1,6 @@
+# Dependencies of the analysis stages (dataset selection, baseline, latent stage, supplementary analyses).
+# Versions used in the validation run, with Python 3.12.10 (Windows 11).
+numpy==2.4.4
+pandas==3.0.3
+# Optional: only used by the exploratory VAE branch of the latent stage, which is not part of the article's results.
+torch==2.11.0
