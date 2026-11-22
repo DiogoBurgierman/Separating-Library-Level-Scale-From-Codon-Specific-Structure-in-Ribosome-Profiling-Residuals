@@ -1,0 +1,71 @@
+{
+  "n_observations": 1067186,
+  "n_codons": 61,
+  "n_conditions": 2,
+  "mu": 1.4055945159882541,
+  "r2_sequence_baseline": 0.006851219928662555,
+  "r2_codon_condition_means": 0.9329645456553564,
+  "var_k_obs": 4.923114118373271,
+  "var_k_obs_minus_k_seq": 4.889384780814392,
+  "var_k_obs_codon_condition": 0.0635943149642644,
+  "var_residual_codon_condition": 0.004259828531910958,
+  "mse_residual_codon_condition": 0.0042630737973658375,
+  "mean_residual_codon_condition": -0.0018014620325940808,
+  "weighted_sum_n_times_beta": 6.407262276297843e-08,
+  "identifiability": "sum_to_zero_weighted_by_n_obs",
+  "model": "k_obs(i,c) = mu + beta_codon(i) + eps_ic",
+  "k_seq": "k_seq(i) = mu + beta_codon(i)",
+  "codon_condition_variance_note": "var_residual_codon_condition is centred, Var(R); mse_residual_codon_condition is E[R^2] = Var(R) + mean(R)^2 and is the value previously emitted under the var_ name. r2_codon_condition_means keeps the standard definition 1 - SS_res / SS_tot with uncentred SS_res, so it is unchanged.",
+  "fit_libraries": [
+    "freeze_Mg",
+    "freeze_Mg_ctrl"
+  ],
+  "fit_condition_ids": [
+    "GSE119104|GSM3358140|freeze_Mg_ctrl",
+    "GSE119104|GSM3358142|freeze_Mg"
+  ],
+  "n_eval_conditions": 14,
+  "output_dir": "modelo_baseline/saidas_robustez_freeze_mg",
+  "alignment": {
+    "spearman_kseq_freeze_vs_pooled": {
+      "n": 61,
+      "rho": 0.5480698043363299
+    },
+    "spearman_pause_rho_vs_inv_frequency": {
+      "n": 61,
+      "rho": -0.03701745108408249
+    },
+    "spearman_kseq_vs_frequency": {
+      "n": 61,
+      "rho": 0.29418297197250126
+    },
+    "spearman_kseq_vs_pause_rho": {
+      "n": 61,
+      "rho": -0.6141723955579058
+    },
+    "proline_all_beta_negative": true,
+    "mean_kseq_proline": 1.068994423171379,
+    "mean_kseq_rare_agg_aga_ata": 0.8233800730132166,
+    "mean_kseq_all": 1.3554155051511338,
+    "mean_pause_rho_proline": 1.1043237398035917,
+    "mean_pause_rho_all": 0.9970300854543288,
+    "filter_minus_freeze_mean_rho_ser": 2.796526489252041,
+    "filter_minus_freeze_mean_rho_gly": 0.3970762215379722,
+    "mpc_minus_freeze_mean_rho_ile": 2.9527005344502895,
+    "media_cm_minus_freeze_mean_rho_ser": -0.07326762222955385,
+    "media_cm_minus_freeze_mean_rho_gly": -0.5247117893149109,
+    "mean_k_ile_freeze": 1.2278081137169665,
+    "mean_k_ile_mpc": 0.3485786954149603,
+    "mean_k_ser_freeze": 1.52562648605451,
+    "mean_k_ser_filter": 0.5848611829039166,
+    "mean_k_gly_freeze": 1.2247995544211696,
+    "mean_k_gly_filter": 1.0683397695626515,
+    "expected_from_mohammad": {
+      "pause_rho_vs_inv_usage_sign": "positive",
+      "filter_ser_gly_pause_vs_freeze": "rho_filter > rho_freeze",
+      "mupirocin_ile_pause_vs_freeze": "rho_mpc > rho_freeze",
+      "proline_slower_than_mean": true,
+      "rare_codons_slower_than_mean": true
+    }
+  }
+}

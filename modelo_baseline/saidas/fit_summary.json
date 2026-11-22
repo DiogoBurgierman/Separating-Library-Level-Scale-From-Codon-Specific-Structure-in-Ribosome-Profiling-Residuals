@@ -1,0 +1,34 @@
+{
+  "n_observations": 6572420,
+  "n_codons": 61,
+  "n_conditions": 14,
+  "mu": 3.052348208492298,
+  "r2_sequence_baseline": 0.0014141804895145826,
+  "r2_codon_condition_means": 0.11685734963426242,
+  "var_k_obs": 238.7931295234811,
+  "var_k_obs_minus_k_seq": 238.45543293867885,
+  "var_k_obs_codon_condition": 2.7803218412774124,
+  "var_residual_codon_condition": 2.408992222560312,
+  "mse_residual_codon_condition": 2.4554207997754816,
+  "mean_residual_codon_condition": -0.21547291527050225,
+  "weighted_sum_n_times_beta": -3.979820959898461e-06,
+  "identifiability": "sum_to_zero_weighted_by_n_obs",
+  "model": "k_obs(i,c) = mu + beta_codon(i) + eps_ic",
+  "k_seq": "k_seq(i) = mu + beta_codon(i)",
+  "codon_condition_variance_note": "var_residual_codon_condition is centred, Var(R); mse_residual_codon_condition is E[R^2] = Var(R) + mean(R)^2 and is the value previously emitted under the var_ name. r2_codon_condition_means keeps the standard definition 1 - SS_res / SS_tot with uncentred SS_res, so it is unchanged.",
+  "genome_accession": "NC_000913.2",
+  "genome_length": 4639675,
+  "n_cds_used_annotation": 4141,
+  "exclude_start_nt": 27,
+  "exclude_stop_nt": 12,
+  "min_gene_mean_occupancy": 0.0,
+  "asite_shift_nt": {
+    "GSE119104": 11,
+    "GSE77617": 0
+  },
+  "datasets": [
+    "GSE119104",
+    "GSE77617"
+  ],
+  "output_dir": "modelo_baseline/saidas"
+}

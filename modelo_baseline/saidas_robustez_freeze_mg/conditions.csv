@@ -1,0 +1,15 @@
+condition_id,dataset,gsm,label,used_in_kseq_fit,title,n_genes_kept,n_rate_observations
+GSE119104|GSM3358133|media_Cm,GSE119104,GSM3358133,media_Cm,False,media_Cm,4057,468365
+GSE119104|GSM3358134|filter_Mg,GSE119104,GSM3358134,filter_Mg,False,filter_Mg,4018,525683
+GSE119104|GSM3358135|filter_NaCl,GSE119104,GSM3358135,filter_NaCl,False,filter_NaCl,4025,559862
+GSE119104|GSM3358136|filter_Mg_ctrl,GSE119104,GSM3358136,filter_Mg_ctrl,False,filter_Mg_ctrl,4028,433112
+GSE119104|GSM3358137|filter_Mg_MPC,GSE119104,GSM3358137,filter_Mg_MPC,False,filter_Mg_MPC,4009,236044
+GSE119104|GSM3358138|filter_Cm_ctrl,GSE119104,GSM3358138,filter_Cm_ctrl,False,filter_Cm_ctrl,3944,347679
+GSE119104|GSM3358139|filter_Cm_MPC,GSE119104,GSM3358139,filter_Cm_MPC,False,filter_Cm_MPC,3976,242800
+GSE119104|GSM3358140|freeze_Mg_ctrl,GSE119104,GSM3358140,freeze_Mg_ctrl,True,freeze_Mg_ctrl,4046,508899
+GSE119104|GSM3358141|freeze_Mg_MPC,GSE119104,GSM3358141,freeze_Mg_MPC,False,freeze_Mg_MPC,3906,229483
+GSE119104|GSM3358142|freeze_Mg,GSE119104,GSM3358142,freeze_Mg,True,freeze_Mg,4071,558287
+GSE77617|GSM2055244|rib_37_WT,GSE77617,GSM2055244,rib_37_WT,False,ribosome profiling 37°C in WT,4079,755770
+GSE77617|GSM2462933|rib_CTRL,GSE77617,GSM2462933,rib_CTRL,False,ribosome profiling 37°C in WT with control plasmid,3986,593257
+GSE77617|GSM2462934|rib_CUA,GSE77617,GSM2462934,rib_CUA,False,ribosome profiling 37°C in WT with plasmid expressing mini-ORF CUA,4014,624199
+GSE77617|GSM2462935|rib_CUG,GSE77617,GSM2462935,rib_CUG,False,ribosome profiling 37°C in WT with plasmid expressing mini-ORF CUG,3949,488980
