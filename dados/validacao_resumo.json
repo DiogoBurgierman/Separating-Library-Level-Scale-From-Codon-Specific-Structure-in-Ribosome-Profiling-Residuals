@@ -1,0 +1,201 @@
+{
+  "GSE52119": {
+    "title": "Evolution of Translation Regulation in budding Yeast",
+    "overall_design": "SRA submission number SRP028552; BioProject number PRJNA213844; Ribosome profiling was used to compare mRNA abundance, ribosome occupancy, and translation efficiency in two yeast species and their F1 hybrid.",
+    "relations": [
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP028552"
+    ],
+    "organisms": [
+      "Saccharomyces cerevisiae",
+      "Saccharomyces cerevisiae x Saccharomyces paradoxus",
+      "Saccharomyces paradoxus"
+    ],
+    "all_members_count": 16,
+    "ribo_members_count": 8,
+    "chromosomes": [
+      "Spar.1",
+      "Spar.10",
+      "Spar.11",
+      "Spar.12",
+      "Spar.13",
+      "Spar.14",
+      "Spar.15",
+      "Spar.16",
+      "Spar.2",
+      "Spar.3",
+      "Spar.4",
+      "Spar.5",
+      "Spar.6",
+      "Spar.7",
+      "Spar.8",
+      "Spar.9",
+      "chrI",
+      "chrII",
+      "chrIII",
+      "chrIV",
+      "chrIX",
+      "chrM",
+      "chrV",
+      "chrVI",
+      "chrVII",
+      "chrVIII",
+      "chrX",
+      "chrXI",
+      "chrXII",
+      "chrXIII",
+      "chrXIV",
+      "chrXV",
+      "chrXVI"
+    ],
+    "contig_check": {
+      "matched_scer": 17,
+      "matched_spar": 17,
+      "total": 33,
+      "matched_scer_values": [
+        "chrI",
+        "chrII",
+        "chrIII",
+        "chrIV",
+        "chrIX",
+        "chrM",
+        "chrV",
+        "chrVI",
+        "chrVII",
+        "chrVIII",
+        "chrX",
+        "chrXI",
+        "chrXII",
+        "chrXIII",
+        "chrXIV",
+        "chrXV",
+        "chrXVI"
+      ],
+      "matched_spar_values": [
+        "chrI",
+        "chrII",
+        "chrIII",
+        "chrIV",
+        "chrIX",
+        "chrM",
+        "chrV",
+        "chrVI",
+        "chrVII",
+        "chrVIII",
+        "chrX",
+        "chrXI",
+        "chrXII",
+        "chrXIII",
+        "chrXIV",
+        "chrXV",
+        "chrXVI"
+      ],
+      "unmatched_scer_values": [
+        "Spar.1",
+        "Spar.10",
+        "Spar.11",
+        "Spar.12",
+        "Spar.13",
+        "Spar.14",
+        "Spar.15",
+        "Spar.16",
+        "Spar.2",
+        "Spar.3",
+        "Spar.4",
+        "Spar.5",
+        "Spar.6",
+        "Spar.7",
+        "Spar.8",
+        "Spar.9"
+      ],
+      "unmatched_spar_values": [
+        "Spar.1",
+        "Spar.10",
+        "Spar.11",
+        "Spar.12",
+        "Spar.13",
+        "Spar.14",
+        "Spar.15",
+        "Spar.16",
+        "Spar.2",
+        "Spar.3",
+        "Spar.4",
+        "Spar.5",
+        "Spar.6",
+        "Spar.7",
+        "Spar.8",
+        "Spar.9"
+      ]
+    }
+  },
+  "GSE75897": {
+    "title": "Improved ribosome-footprint and mRNA measurements provide insights into dynamics and regulation of yeast translation",
+    "overall_design": "Ribosome-footprint profiling and RNA-seq (total RNA, poly(A) selected, RiboMinus treated, or Ribo-Zero treated) from log-phase S. cerevisiae. The study includes a reanalysis of the two Samples from GSE53313. The reanalyzed data is linked to the Series record.",
+    "relations": [
+      "Reanalysis of: GSM1289256",
+      "Reanalysis of: GSM1289257",
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA305643",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP067237"
+    ],
+    "organisms": [
+      "Saccharomyces cerevisiae"
+    ],
+    "all_members_count": 3,
+    "ribo_members_count": 0,
+    "chromosomes": [],
+    "contig_check": {
+      "matched": 0,
+      "total": 0,
+      "matched_values": []
+    }
+  },
+  "GSE119104": {
+    "title": "A systematically-revised ribosome profiling protocol for bacteria reveals translational pauses at single-codon resolution",
+    "overall_design": "Ribosome profiling of E. coli MG1655 using a variety of lysis buffers and cell harvesting conditions",
+    "relations": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA488109",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP158945"
+    ],
+    "organisms": [
+      "Escherichia coli str. K-12 substr. MG1655"
+    ],
+    "all_members_count": 20,
+    "ribo_members_count": 20,
+    "chromosomes": [
+      "NC_000913.2"
+    ],
+    "contig_check": {
+      "matched": 1,
+      "total": 1,
+      "matched_values": [
+        "NC_000913.2"
+      ],
+      "unmatched_values": []
+    }
+  },
+  "GSE77617": {
+    "title": "Operon mRNAs are organized into ORF-centric structures that predict translation efficiency",
+    "overall_design": "mRNA-seq and ribosome profiling of E. coli MG1655 (wild-type) cells at 37°C and DMS-seq of in vivo modified mRNA from wild-type cells, kasugamycin-treated or untreated ΔgcvB cells, as well as in vitro modified mRNA refolded at 37°C or denatured at 95°C. Reads from replicates of the same experiment were pooled in wiggle files.",
+    "relations": [
+      "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA311041",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP069339"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "all_members_count": 33,
+    "ribo_members_count": 8,
+    "chromosomes": [
+      "MG1655",
+      "NC.000913.2"
+    ],
+    "contig_check": {
+      "matched": 2,
+      "total": 2,
+      "matched_values": [
+        "MG1655",
+        "NC.000913.2"
+      ],
+      "unmatched_values": []
+    }
+  }
+}
