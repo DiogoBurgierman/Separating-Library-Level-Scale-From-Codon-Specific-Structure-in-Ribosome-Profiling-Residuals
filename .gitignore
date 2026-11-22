@@ -5,7 +5,11 @@ __pycache__/
 dados/alta_confiabilidade/
 dados/baixa_confiabilidade/
 dados/referencias/
-dados/remapeamento_bruto/
+dados/remapeamento_bruto/*
+!dados/remapeamento_bruto/resultados/
+dados/remapeamento_bruto/resultados/*
+!dados/remapeamento_bruto/resultados/runs_selecionados.csv
+!dados/remapeamento_bruto/resultados/resumo_fullrun_remapeamento.csv
 
 # Rebuildable cache of the supplementary analyses
 analises_revisao/_cache/

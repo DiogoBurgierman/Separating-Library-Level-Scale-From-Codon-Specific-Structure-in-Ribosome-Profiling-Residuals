@@ -37,8 +37,16 @@ All inputs are public. Place them under `dados/` as follows; the scripts read th
 | `dados/remapeamento_bruto/referencias_candidatas/` | `NC_000913.2.fasta`, `NC_000913.3.fasta`, and `NC_000913.2_cds_from_genomic.fna` (the last one is downloaded automatically by `modelo_baseline/annotation.py` if absent) | NCBI E-utilities (`efetch`, `db=nuccore`, `rettype=fasta` / `fasta_cds_na`) |
 
 The read-level analysis `r6` additionally reads the FASTQ files of ENA runs SRR7759813 (GSE119104)
-and SRR5186138 (GSE77617), whose MD5 sums are `b107cee0fdc00899400330437d3fc9d7` and
-`9f87d0512db331f3ccfaf9f0283f18a9`, in `dados/remapeamento_bruto/fastq/`.
+and SRR5186138 (GSE77617) in `dados/remapeamento_bruto/fastq/` (`<run>.fastq.gz`, from the ENA
+addresses listed in the manifest below). Two small frozen tables are included in this repository
+under `dados/remapeamento_bruto/resultados/`:
+
+- `runs_selecionados.csv`: the two selected runs with their ENA metadata and the expected MD5 of
+  each FASTQ file (`r6` aborts if a downloaded file does not match);
+- `resumo_fullrun_remapeamento.csv`: read counts of an earlier exact-match remapping, which `r6`
+  reproduces and compares against.
+
+Both contain only public ENA accession metadata and counts computed by the authors.
 
 ## Reproduction
 
