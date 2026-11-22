@@ -1,0 +1,352 @@
+{
+  "comparator": "freeze",
+  "comparator_description": "k_seq fitted only on the two untreated freeze+Mg libraries",
+  "residual_matrix_shape": [
+    61,
+    14
+  ],
+  "baseline_fit_summary_keys": {
+    "n_observations": 1067186,
+    "n_conditions": 2,
+    "mu": 1.4055945159882541,
+    "var_residual_codon_condition": 0.004259828531910958,
+    "mse_residual_codon_condition": 0.0042630737973658375,
+    "mean_residual_codon_condition": -0.0018014620325940808,
+    "r2_codon_condition_means": 0.9329645456553564
+  },
+  "step_1_8_6_condition_dependence": {
+    "ss_total": 2262.1066208424418,
+    "ss_condition_main_effect": 1694.3955965167709,
+    "ss_codon_main_effect": 213.59768520963397,
+    "fraction_variance_condition_main_effect": 0.7490343650936104,
+    "fraction_variance_codon_main_effect": 0.09442423413715444,
+    "permutation_null_mean": 0.014888804215391427,
+    "permutation_null_p95": 0.025171824863717093,
+    "permutation_p_value": 0.0004997501249375312,
+    "n_permutations": 2000
+  },
+  "step_1_8_6_low_dimensional_structure": {
+    "n_components_evaluated": 13,
+    "n_components_above_permutation_null": 1,
+    "explained_variance_ratio_pc1": 0.9303780186024599,
+    "cumulative_explained_variance_first_two": 0.9577623937059124,
+    "n_permutations": 2000
+  },
+  "step_1_8_6_condition_correlations": {
+    "mean_pairwise_correlation": -0.0160542519721685,
+    "mean_absolute_pairwise_correlation": 0.5195109117444162,
+    "mean_correlation_within_dataset": 0.41928557642728537,
+    "mean_correlation_between_datasets": -0.5711125331814721,
+    "mean_correlation_within_protocol_family": 0.5079691181339836,
+    "mean_correlation_between_protocol_families": -0.11947991712469852,
+    "mean_correlation_same_harvest_method": 0.3975400883340171,
+    "mean_correlation_different_harvest_method": -0.21946130458176802,
+    "n_condition_pairs": 91
+  },
+  "step_1_8_7_dimension_selection": {
+    "rule": "number of singular values above the within-codon permutation null",
+    "selected_d": 1,
+    "n_components_above_permutation_null": 1,
+    "explained_variance_ratio_pc1": 0.9303780186024599,
+    "bcv_argmax_d": 8,
+    "bcv_argmax_mean_skill": 0.9292844545483022,
+    "bcv_mean_skill_at_selected_d": 0.8992336196702589,
+    "bcv_fraction_of_best_skill_at_selected_d": 0.9676623936503381,
+    "bcv_rejected_rule": "argmax and one-standard-error both degenerate on a plateau",
+    "ard_n_active_by_threshold": 3,
+    "ard_alpha_sorted_at_max_d": [
+      0.236335,
+      20.4387,
+      23.0212,
+      30.6016,
+      66.1728,
+      137.972,
+      580137.0,
+      572667.0
+    ],
+    "ard_largest_alpha_gap_after_component": 6,
+    "ard_largest_alpha_gap_ratio": 4204.744440901052,
+    "ard_threshold_caveat": "the active count depends on VB_ARD_ACTIVE_RATIO; the alpha spectrum itself is reported so the dominance structure can be read directly",
+    "ppca_bic_argmin_d": 8,
+    "ppca_sigma2_at_max_d": 0.0029468435643359397,
+    "ppca_bic_caveat": "monotone in d at p >> n; not used for selection"
+  },
+  "step_1_8_7_vbpca_active_components_at_d8": 3,
+  "step_1_8_7_ppca_bic_best_d": 8,
+  "step_1_8_8_a_variance_selected_model": {
+    "d": 1,
+    "estimator": "pca",
+    "mse_R_raw": 4.276543375716862,
+    "var_R_raw": 2.6488367925555525,
+    "mean_R_raw": 1.2758160459726589,
+    "mse_after_offset_only": 2.398722407064178,
+    "var_after_offset_only": 2.398722407064178,
+    "mse_after_latent": 0.1670038068024851,
+    "var_after_latent": 0.1670038068024851,
+    "latent_gain_vs_offset_only": 0.9303780186024597,
+    "total_gain_vs_var_R_raw": 0.9369520208750337,
+    "offset_only_gain_vs_var_R_raw": 0.09442423413715428,
+    "criterion_var_reduced": true,
+    "criterion_var_reduced_beyond_offset": true
+  },
+  "step_1_8_8_b_correlation_selected_model": {
+    "d": 1,
+    "estimator": "pca",
+    "mean_offdiagonal_correlation_before": -0.0160542519721685,
+    "mean_absolute_offdiagonal_correlation_before": 0.5195109117444162,
+    "mean_offdiagonal_correlation_after": -0.05952938798256809,
+    "mean_absolute_offdiagonal_correlation_after": 0.3633079282239675,
+    "absolute_correlation_reduction": 0.1562029835204487,
+    "relative_absolute_correlation_reduction": 0.3006731523616118
+  },
+  "step_1_8_8_c_generalisation": [
+    {
+      "d": 1,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.2591731766323372,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.8992336196702589,
+      "std_skill": 0.055530239833839305,
+      "median_skill": 0.9121715956640544,
+      "p05_skill": 0.7893085704802743,
+      "p95_skill": 0.9571253472391071,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.0024833878215066263
+    },
+    {
+      "d": 2,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.23765847925396427,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9069086895459328,
+      "std_skill": 0.0545919820555,
+      "median_skill": 0.9216603370920309,
+      "p05_skill": 0.8044086333283202,
+      "p95_skill": 0.9659725699825511,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.0024414276580509335
+    },
+    {
+      "d": 3,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.2033772855585715,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9210783244062941,
+      "std_skill": 0.048834325818986724,
+      "median_skill": 0.9334978363221965,
+      "p05_skill": 0.817602991886591,
+      "p95_skill": 0.9725004502113501,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.002183937443332548
+    },
+    {
+      "d": 4,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.20277074297716308,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9224202836574539,
+      "std_skill": 0.05292345664666402,
+      "median_skill": 0.9363863496473723,
+      "p05_skill": 0.8038351196594138,
+      "p95_skill": 0.9752796891619908,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.002366808933324076
+    },
+    {
+      "d": 5,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.1956583944100222,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9252959298314634,
+      "std_skill": 0.05491076311843885,
+      "median_skill": 0.9403657898708908,
+      "p05_skill": 0.8140191206503204,
+      "p95_skill": 0.9810287781262645,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.002455683980584352
+    },
+    {
+      "d": 6,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.18951663654165452,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9288693354088522,
+      "std_skill": 0.05405262431052239,
+      "median_skill": 0.9409633318200368,
+      "p05_skill": 0.8265200334100967,
+      "p95_skill": 0.9877135109597194,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.002417306846411715
+    },
+    {
+      "d": 7,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.1892743603247443,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9292348299211685,
+      "std_skill": 0.05535137506661975,
+      "median_skill": 0.9418616897585632,
+      "p05_skill": 0.8206954509770278,
+      "p95_skill": 0.9879178833420895,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.002475388745940974
+    },
+    {
+      "d": 8,
+      "n_splits": 500,
+      "mean_heldout_mse": 0.1898263643692229,
+      "mean_offset_only_mse": 2.8236888904004966,
+      "mean_skill": 0.9292844545483022,
+      "std_skill": 0.055876975095869946,
+      "median_skill": 0.9448213978251088,
+      "p05_skill": 0.8290651271427937,
+      "p95_skill": 0.988731379370242,
+      "fraction_splits_with_positive_skill": 1.0,
+      "se_skill": 0.0024988942938285606
+    }
+  ],
+  "step_1_8_8_d_bootstrap": {
+    "d": 1,
+    "n_bootstrap": 2000,
+    "mean_subspace_cosine": 0.9999861170188495,
+    "p05_subspace_cosine": 0.9999586044896804,
+    "mean_geometry_correlation": 0.9992682713615874,
+    "p05_geometry_correlation": 0.9982565024709816,
+    "mean_pc1_explained_variance_ratio": 0.9316975203580208,
+    "p05_pc1_explained_variance_ratio": 0.9164507152099892,
+    "p95_pc1_explained_variance_ratio": 0.9456823778673452,
+    "min_condition_mean_cosine": 1.0
+  },
+  "complementary_design_coherence": [
+    {
+      "grouping": "dataset",
+      "n_groups": 2,
+      "mean_within_group_distance": 5.3078689032103785,
+      "mean_between_group_distance": 23.71038325867771,
+      "within_over_between_ratio": 0.2238626362679213,
+      "permutation_null_mean_ratio": 1.0195668537287577,
+      "permutation_p_value": 0.0004997501249375312,
+      "coherent_at_0.05": true,
+      "n_levels_confined_to_one_dataset": 2,
+      "fully_nested_in_dataset": true
+    },
+    {
+      "grouping": "harvest",
+      "n_groups": 3,
+      "mean_within_group_distance": 5.727696155077878,
+      "mean_between_group_distance": 17.168619012434444,
+      "within_over_between_ratio": 0.3336142616322006,
+      "permutation_null_mean_ratio": 1.0110192355368535,
+      "permutation_p_value": 0.0034982508745627187,
+      "coherent_at_0.05": true,
+      "n_levels_confined_to_one_dataset": 3,
+      "fully_nested_in_dataset": true
+    },
+    {
+      "grouping": "drug",
+      "n_groups": 4,
+      "mean_within_group_distance": 3.0692764246474034,
+      "mean_between_group_distance": 17.096328510735816,
+      "within_over_between_ratio": 0.17952839539319917,
+      "permutation_null_mean_ratio": 1.0116775432795233,
+      "permutation_p_value": 0.0004997501249375312,
+      "coherent_at_0.05": true,
+      "n_levels_confined_to_one_dataset": 4,
+      "fully_nested_in_dataset": true
+    },
+    {
+      "grouping": "protocol_family",
+      "n_groups": 5,
+      "mean_within_group_distance": 5.608335074357838,
+      "mean_between_group_distance": 14.934100240729869,
+      "within_over_between_ratio": 0.37553886634979117,
+      "permutation_null_mean_ratio": 1.0073408571393574,
+      "permutation_p_value": 0.004997501249375313,
+      "coherent_at_0.05": true,
+      "n_levels_confined_to_one_dataset": 5,
+      "fully_nested_in_dataset": true
+    }
+  ],
+  "complementary_grouping_nesting_check": [
+    {
+      "grouping": "dataset",
+      "n_levels": 2,
+      "n_levels_confined_to_one_dataset": 2,
+      "levels_confined_to_one_dataset": "GSE119104;GSE77617",
+      "fully_nested_in_dataset": true
+    },
+    {
+      "grouping": "harvest",
+      "n_levels": 3,
+      "n_levels_confined_to_one_dataset": 3,
+      "levels_confined_to_one_dataset": "direct_freeze;filtration;unreported",
+      "fully_nested_in_dataset": true
+    },
+    {
+      "grouping": "drug",
+      "n_levels": 4,
+      "n_levels_confined_to_one_dataset": 4,
+      "levels_confined_to_one_dataset": "chloramphenicol;mupirocin;none;unreported",
+      "fully_nested_in_dataset": true
+    },
+    {
+      "grouping": "protocol_family",
+      "n_levels": 5,
+      "n_levels_confined_to_one_dataset": 5,
+      "levels_confined_to_one_dataset": "GSE119104|direct_freeze|MgCl2_150mM;GSE119104|filtration|Cm;GSE119104|filtration|MgCl2_150mM;GSE119104|filtration|NaCl_1M;GSE77617|unreported|unreported",
+      "fully_nested_in_dataset": true
+    }
+  ],
+  "complementary_within_dataset_analysis": [
+    {
+      "dataset": "GSE119104",
+      "n_conditions": 10,
+      "selected_d": 1,
+      "fraction_variance_condition_main_effect": 0.665759926582968,
+      "condition_permutation_p_value": 0.0004997501249375312,
+      "n_components_above_permutation_null": 1,
+      "explained_variance_ratio_pc1": 0.8302434031245569,
+      "latent_gain_vs_offset_only": 0.8302434031245568,
+      "mean_subspace_cosine_bootstrap": 0.999688534568399,
+      "coherence": [
+        {
+          "dataset": "GSE119104",
+          "grouping": "harvest",
+          "n_groups": 2,
+          "mean_within_group_distance": 6.362340419286433,
+          "mean_between_group_distance": 4.803218130174152,
+          "within_over_between_ratio": 1.3245995178352958,
+          "permutation_null_mean_ratio": 1.0894745735724178,
+          "permutation_p_value": 0.6411794102948526,
+          "coherent_at_0.05": false
+        },
+        {
+          "dataset": "GSE119104",
+          "grouping": "drug",
+          "n_groups": 3,
+          "mean_within_group_distance": 2.255472575885035,
+          "mean_between_group_distance": 7.887601645577813,
+          "within_over_between_ratio": 0.2859516336185115,
+          "permutation_null_mean_ratio": 1.06844104924373,
+          "permutation_p_value": 0.005497251374312844,
+          "coherent_at_0.05": true
+        },
+        {
+          "dataset": "GSE119104",
+          "grouping": "lysis",
+          "n_groups": 3,
+          "mean_within_group_distance": 4.464493311378151,
+          "mean_between_group_distance": 6.4149211552490675,
+          "within_over_between_ratio": 0.6959545103255148,
+          "permutation_null_mean_ratio": 1.0662808066333695,
+          "permutation_p_value": 0.22638680659670166,
+          "coherent_at_0.05": false
+        }
+      ]
+    }
+  ],
+  "seed": 20260911,
+  "n_permutations": 2000,
+  "n_bootstrap": 2000,
+  "n_bi_cross_validation_splits": 500
+}

@@ -1,0 +1,9 @@
+{
+  "max_row_sd_of_difference": 8.640604721801431e-16,
+  "max_abs_difference_offset_centred": 1.3322676295501878e-15,
+  "max_abs_difference_raw": 2.735773027214834,
+  "n_codons": 61,
+  "n_conditions": 14,
+  "pooled_residuals": "modelo_baseline/saidas/residuals_codon_condition.csv",
+  "freeze_residuals": "modelo_baseline/saidas_robustez_freeze_mg/residuals_using_freeze_kseq.csv"
+}

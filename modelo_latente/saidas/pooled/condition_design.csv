@@ -1,0 +1,15 @@
+condition_id,dataset,gsm,label,harvest,drug,lysis,n_genes_kept,n_rate_observations,protocol_family
+GSE119104|GSM3358133|media_Cm,GSE119104,GSM3358133,media_Cm,filtration,chloramphenicol,Cm,4057,468365,GSE119104|filtration|Cm
+GSE119104|GSM3358134|filter_Mg,GSE119104,GSM3358134,filter_Mg,filtration,none,MgCl2_150mM,4018,525683,GSE119104|filtration|MgCl2_150mM
+GSE119104|GSM3358135|filter_NaCl,GSE119104,GSM3358135,filter_NaCl,filtration,none,NaCl_1M,4025,559862,GSE119104|filtration|NaCl_1M
+GSE119104|GSM3358136|filter_Mg_ctrl,GSE119104,GSM3358136,filter_Mg_ctrl,filtration,none,MgCl2_150mM,4028,433112,GSE119104|filtration|MgCl2_150mM
+GSE119104|GSM3358137|filter_Mg_MPC,GSE119104,GSM3358137,filter_Mg_MPC,filtration,mupirocin,MgCl2_150mM,4009,236044,GSE119104|filtration|MgCl2_150mM
+GSE119104|GSM3358138|filter_Cm_ctrl,GSE119104,GSM3358138,filter_Cm_ctrl,filtration,none,Cm,3944,347679,GSE119104|filtration|Cm
+GSE119104|GSM3358139|filter_Cm_MPC,GSE119104,GSM3358139,filter_Cm_MPC,filtration,mupirocin,Cm,3976,242800,GSE119104|filtration|Cm
+GSE119104|GSM3358140|freeze_Mg_ctrl,GSE119104,GSM3358140,freeze_Mg_ctrl,direct_freeze,none,MgCl2_150mM,4046,508899,GSE119104|direct_freeze|MgCl2_150mM
+GSE119104|GSM3358141|freeze_Mg_MPC,GSE119104,GSM3358141,freeze_Mg_MPC,direct_freeze,mupirocin,MgCl2_150mM,3906,229483,GSE119104|direct_freeze|MgCl2_150mM
+GSE119104|GSM3358142|freeze_Mg,GSE119104,GSM3358142,freeze_Mg,direct_freeze,none,MgCl2_150mM,4071,558287,GSE119104|direct_freeze|MgCl2_150mM
+GSE77617|GSM2055244|rib_37_WT,GSE77617,GSM2055244,rib_37_WT,unreported,unreported,unreported,4079,755770,GSE77617|unreported|unreported
+GSE77617|GSM2462933|rib_CTRL,GSE77617,GSM2462933,rib_CTRL,unreported,unreported,unreported,3986,593257,GSE77617|unreported|unreported
+GSE77617|GSM2462934|rib_CUA,GSE77617,GSM2462934,rib_CUA,unreported,unreported,unreported,4014,624199,GSE77617|unreported|unreported
+GSE77617|GSM2462935|rib_CUG,GSE77617,GSM2462935,rib_CUG,unreported,unreported,unreported,3949,488980,GSE77617|unreported|unreported
