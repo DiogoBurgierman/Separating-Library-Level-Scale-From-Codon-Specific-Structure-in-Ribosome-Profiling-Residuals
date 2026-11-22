@@ -1,0 +1,39 @@
+{
+  "aleatoriedade": "nenhuma",
+  "comando": "python -m analises_revisao.r6_remapeamento_adaptadores",
+  "max_reads": null,
+  "numpy": "2.4.4",
+  "pandas": "3.0.3",
+  "parametros": {
+    "adaptador": "CTGTAGGCACCATCAAT",
+    "comprimento_min_principal": 20,
+    "k_sonda": 20,
+    "limiares": [
+      15,
+      20,
+      25
+    ],
+    "sobreposicao_min": 5
+  },
+  "python": "3.12.10",
+  "semente": 20266911,
+  "sha256_saidas_resumo": {
+    "diferencas_referencias.csv": "1728c9d99d7e188fa0a40399f6325e088fe63eea385e514789b28e7e39f40258",
+    "mapeamento_por_comprimento.csv": "59839b834d697b6e7db33930fead131484df96fe5ade209d1809b1737067b627",
+    "reads_discordantes.csv": "1fcb48c3f518648b823387acebc9a5742e425bcee1e2050476353afee07dd97f",
+    "replica_criterio_do_artigo.csv": "e92031ba92ebf432147c9c1c51e87b40e961c63ff94c7dd9ae6b62f4ac968a82",
+    "resumo_remapeamento_com_corte.csv": "1596fcda44e6881a9843241fee005eb9e739e1ac20b19b95a825a152eb769026",
+    "suporte_por_alelo_nos_sitios.csv": "650ab1ff4982e88c335db6f6f7f00a08e42d5499ba0fa604b680bc0df3488a72"
+  },
+  "tempo_total_s": 1003.5,
+  "tempos_acumulados_s": {
+    "adaptador": 61.0,
+    "agregacao": 833.8,
+    "diferencas": 7.9,
+    "mapeamento": 833.8,
+    "md5": 2.5,
+    "passagem_SRR5186138": 620.9,
+    "passagem_SRR7759813": 149.6,
+    "validacao_hash": 1003.5
+  }
+}

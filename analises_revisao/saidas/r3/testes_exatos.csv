@@ -1,0 +1,25 @@
+papel,residuo,familia,contraste,subconjunto,n_alvo,n_referencia,n_atribuicoes,p_minimo_possivel,delta,direcao_prevista,na_direcao_prevista,p_unicaudal_exato,p_unicaudal_direcao_oposta,posto_da_atribuicao_observada,auc,separacao_perfeita
+primario,xi_intra,serina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.6741088155126311,negativa,True,0.008333333333333333,1.0,1,1.0,True
+primario,xi_intra,glicina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.29304610386599683,negativa,True,0.041666666666666664,0.9666666666666667,5,0.8571428571428571,False
+primario,xi_intra,isoleucina,mupirocina vs demais,10 bibliotecas GSE119104,3,7,120,0.008333333333333333,-1.4573642699811349,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (a),xi_agregado,serina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.5167912696307555,negativa,True,0.11666666666666667,0.8916666666666667,14,0.7619047619047619,False
+secundario (a),xi_agregado,glicina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.06810679122859575,negativa,True,0.375,0.6333333333333333,45,0.6190476190476191,False
+secundario (a),xi_agregado,isoleucina,mupirocina vs demais,10 bibliotecas GSE119104,3,7,120,0.008333333333333333,-1.4215968546991469,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (b),D_aditivo_intra,serina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.6558167502591916,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (b),D_aditivo_intra,glicina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.15082852018650908,negativa,True,0.2916666666666667,0.7166666666666667,35,0.7142857142857143,False
+secundario (b),D_aditivo_intra,isoleucina,mupirocina vs demais,10 bibliotecas GSE119104,3,7,120,0.008333333333333333,-1.4326252110359137,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (c),log_kobs_duplo_centro,serina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.5173158841627626,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (c),log_kobs_duplo_centro,glicina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.16765813269452895,negativa,True,0.2,0.8083333333333333,24,0.6190476190476191,False
+secundario (c),log_kobs_duplo_centro,isoleucina,mupirocina vs demais,10 bibliotecas GSE119104,3,7,120,0.008333333333333333,-1.3886295476150186,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (c),log_rho_duplo_centro,serina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,0.5436501352368849,positiva,True,0.058333333333333334,0.95,7,0.8571428571428571,False
+secundario (c),log_rho_duplo_centro,glicina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,0.075257923066987,positiva,True,0.3333333333333333,0.675,40,0.6666666666666666,False
+secundario (c),log_rho_duplo_centro,isoleucina,mupirocina vs demais,10 bibliotecas GSE119104,3,7,120,0.008333333333333333,1.3486326499988253,positiva,True,0.008333333333333333,1.0,1,1.0,True
+referencia (absorcao),R_menos_m_antes_do_latente,serina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,-0.21630821286113272,negativa,True,0.3333333333333333,0.675,40,0.6190476190476191,False
+referencia (absorcao),R_menos_m_antes_do_latente,glicina,filtradas vs congeladas,10 bibliotecas GSE119104,7,3,120,0.008333333333333333,0.28868001721154957,negativa,False,0.5166666666666667,0.49166666666666664,62,0.5714285714285714,False
+referencia (absorcao),R_menos_m_antes_do_latente,isoleucina,mupirocina vs demais,10 bibliotecas GSE119104,3,7,120,0.008333333333333333,-1.29084875536926,negativa,True,0.008333333333333333,1.0,1,1.0,True
+secundario (d),xi_intra,serina,filtradas sem droga (4) vs congeladas sem droga (2),6 bibliotecas sem droga,4,2,15,0.06666666666666667,-0.9661035600531412,negativa,True,0.06666666666666667,1.0,1,1.0,True
+secundario (d),D_aditivo_intra,serina,filtradas sem droga (4) vs congeladas sem droga (2),6 bibliotecas sem droga,4,2,15,0.06666666666666667,-0.983585500352966,negativa,True,0.06666666666666667,1.0,1,1.0,True
+secundario (d),log_rho_duplo_centro,serina,filtradas sem droga (4) vs congeladas sem droga (2),6 bibliotecas sem droga,4,2,15,0.06666666666666667,0.9366787614255477,positiva,True,0.06666666666666667,1.0,1,1.0,True
+secundario (e),xi_intra (restrito a 9),serina,filtradas sem media_Cm (6) vs congeladas (3),9 bibliotecas (sem media_Cm),6,3,84,0.011904761904761904,-0.7233940033412329,negativa,True,0.011904761904761904,1.0,1,1.0,True
+secundario (e),xi_reajustado_9,serina,filtradas sem media_Cm (6) vs congeladas (3),9 bibliotecas (sem media_Cm),6,3,84,0.011904761904761904,-0.7050333577565563,negativa,True,0.03571428571428571,0.9761904761904762,3,0.8888888888888888,False
+secundario (e),D_aditivo_9,serina,filtradas sem media_Cm (6) vs congeladas (3),9 bibliotecas (sem media_Cm),6,3,84,0.011904761904761904,-0.732245511172141,negativa,True,0.011904761904761904,1.0,1,1.0,True

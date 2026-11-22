@@ -1,0 +1,17 @@
+quantidade,valor_no_artigo,reproduzido,reproduzido_formatado,armazenado,fonte_armazenada,ok
+fracao removida pelo posto 1 (pooled),0.930,0.9303780186024598,0.930,0.9303780186024598,pooled/summary.json,True
+QM so m_i,2.399,2.398722407064178,2.399,2.398722407064178,pooled/summary.json,True
+QM apos posto 1,0.167,0.16700380680248508,0.167,0.16700380680248508,pooled/summary.json,True
+correlacao residual antes,0.520,0.5195109117444162,0.520,0.5195109117444162,pooled/summary.json,True
+correlacao residual depois,0.363,0.3633079282239675,0.363,0.3633079282239675,pooled/summary.json,True
+componentes acima do nulo do artigo,1,1.0,1,1,pooled/summary.json,True
+PC1 / p95 do nulo do artigo,2.24,2.2375802256308472,2.24,,,True
+skill posto 1 vs so m_i (modelo_latente),0.899,0.8992336196702589,0.899,0.8992336196702589,pooled/bi_cross_validation.csv,True
+fracao de particoes com skill > 0,1.000,1.0,1.000,1.0,pooled/bi_cross_validation.csv,True
+cosseno de subespaco bootstrap,0.99999,0.9999861170188495,0.99999,0.9999861170188495,pooled/summary.json,True
+posicional: removido por g(Z_c) alem de m_i (%),1.23,1.2317843127850798,1.23,,,True
+deslocamento igual para todos os codons (%),82.7,82.71360534697165,82.7,,,True
+GSE119104: fracao posto 1,83.0,83.02434031245568,83.0,83.02434031245568,pooled/summary.json (within),True
+GSE119104: cosseno bootstrap,,0.9996885345683993,0.999689,0.9996885345683993,pooled/summary.json (within),True
+freeze: fracao posto 1,0.930,0.9303780186024597,0.930,0.9303780186024597,freeze/summary.json,True
+freeze: skill posto 1,0.899,0.8992336196702589,0.899,0.8992336196702589,freeze/bi_cross_validation.csv,True

@@ -1,0 +1,52 @@
+{
+  "ancora": {
+    "celulas_nan_divergentes": 0,
+    "max_abs_dif_k_obs": 7.105427357601002e-15,
+    "max_abs_dif_rho": 5.329070518200751e-15,
+    "reproduz": true,
+    "tolerancia": 1e-09
+  },
+  "convencao": "s>0: o codon recebe o valor da trilha s nt a jusante (3') no mRNA; GSE119104 s=11/14/17 = sitio A/P/E",
+  "deslocamentos_nt": [
+    -30,
+    30
+  ],
+  "frac_posicoes_rho_positivo_nativo": {
+    "GSE119104|GSM3358133|media_Cm": 0.37603580154038474,
+    "GSE119104|GSM3358134|filter_Mg": 0.423879107091597,
+    "GSE119104|GSM3358135|filter_NaCl": 0.4508983545401757,
+    "GSE119104|GSM3358136|filter_Mg_ctrl": 0.34823411361556855,
+    "GSE119104|GSM3358137|filter_Mg_MPC": 0.19063263700781932,
+    "GSE119104|GSM3358138|filter_Cm_ctrl": 0.2829243959520733,
+    "GSE119104|GSM3358139|filter_Cm_MPC": 0.19735489172710727,
+    "GSE119104|GSM3358140|freeze_Mg_ctrl": 0.40845599477971506,
+    "GSE119104|GSM3358141|freeze_Mg_MPC": 0.18886867922043718,
+    "GSE119104|GSM3358142|freeze_Mg": 0.44719628713505755,
+    "GSE77617|GSM2055244|rib_37_WT": 0.6037364767007424,
+    "GSE77617|GSM2462933|rib_CTRL": 0.4822749288281975,
+    "GSE77617|GSM2462934|rib_CUA": 0.5037393140838217,
+    "GSE77617|GSM2462935|rib_CUG": 0.39925925804960816
+  },
+  "lambda_estrela_B0_equivale_a_A": 12,
+  "largura_janela_imitacao_nt": 3,
+  "n_bootstrap_genes": 200,
+  "n_genes_anotados": 4141,
+  "n_genes_retidos_nativo": {
+    "GSE119104|GSM3358133|media_Cm": 4057,
+    "GSE119104|GSM3358134|filter_Mg": 4018,
+    "GSE119104|GSM3358135|filter_NaCl": 4025,
+    "GSE119104|GSM3358136|filter_Mg_ctrl": 4028,
+    "GSE119104|GSM3358137|filter_Mg_MPC": 4009,
+    "GSE119104|GSM3358138|filter_Cm_ctrl": 3944,
+    "GSE119104|GSM3358139|filter_Cm_MPC": 3976,
+    "GSE119104|GSM3358140|freeze_Mg_ctrl": 4046,
+    "GSE119104|GSM3358141|freeze_Mg_MPC": 3906,
+    "GSE119104|GSM3358142|freeze_Mg": 4071,
+    "GSE77617|GSM2055244|rib_37_WT": 4079,
+    "GSE77617|GSM2462933|rib_CTRL": 3986,
+    "GSE77617|GSM2462934|rib_CUA": 4014,
+    "GSE77617|GSM2462935|rib_CUG": 3949
+  },
+  "sB_estrela_sitio_A_no_GSE77617": -1,
+  "semente": 20264911
+}

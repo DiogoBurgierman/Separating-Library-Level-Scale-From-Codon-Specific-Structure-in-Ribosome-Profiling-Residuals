@@ -1,0 +1,7 @@
+{
+  "celulas_nan_divergentes": 0,
+  "max_abs_dif_k_obs": 7.105427357601002e-15,
+  "max_abs_dif_rho": 5.329070518200751e-15,
+  "reproduz": true,
+  "tolerancia": 1e-09
+}

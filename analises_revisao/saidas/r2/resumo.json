@@ -1,0 +1,226 @@
+{
+  "alvo_n_posicoes_rho_pos_mupirocina": 236109.0,
+  "alvo_reads_mapeados_mupirocina": 2915838.9999981276,
+  "ancora": {
+    "aprovada": true,
+    "ii_vs_1_sobre_coluna_rho_csv_max_dif_relativa": 2.61859404133187e-16,
+    "max_abs_dif_k_obs": 8.881784197001252e-16,
+    "max_abs_dif_n": 0.0,
+    "max_abs_dif_n_genes_kept": 0,
+    "max_abs_dif_n_rate_observations": 0,
+    "max_abs_dif_rho": 8.881784197001252e-16,
+    "max_abs_dif_z_intra_GSE119104_vs_arquivo": 5.329070518200751e-15,
+    "max_abs_dif_z_intra_projecao_de_k_reextraido": 5.329070518200751e-15,
+    "max_abs_dif_z_pooled_projecao_vs_arquivo": 1.0658141036401503e-14,
+    "rapido_vs_por_gene_contadores_iguais": true,
+    "rapido_vs_por_gene_max_dif_relativa": {
+      "k_obs": 7.263849573719538e-16,
+      "log_k": 8.967064256710356e-14,
+      "n": 0.0,
+      "rho": 4.754676865688674e-16
+    },
+    "tolerancia": 1e-09
+  },
+  "covariaveis": [
+    "log10_reads_ENA",
+    "log10_reads_mapeados_trilha",
+    "log10_reads_cds_trilha",
+    "fracao_posicoes_rho_pos",
+    "n_posicoes_rho_pos",
+    "n_genes_retidos",
+    "mediana_frac_zeros_por_gene"
+  ],
+  "curva_de_rarefacao": {
+    "escore::i_media_log_k::N14": {
+      "b1": -5.216409945102322,
+      "b2": 0.12561584796195427,
+      "diferenca_entre_estudos_ajustada_extrapolada": 1.6822007832660155,
+      "diferenca_entre_estudos_observada": 4.054045058527366,
+      "dp_nao_tratadas_ajustado": 0.7031438228101073,
+      "dp_nao_tratadas_observado": 1.26144292873323,
+      "faixa_dx_ajustada": [
+        -0.9238482167348696,
+        0.0
+      ],
+      "gap_nao_tratadas_menos_mupirocina_ajustado": 2.052584401922133,
+      "gap_nao_tratadas_menos_mupirocina_observado": -1.7624366186867308,
+      "ordem_GSE119104_ajustada_crescente": "media_Cm;freeze_Mg_MPC;filter_Cm_MPC;filter_Mg_MPC;filter_Mg;filter_NaCl;filter_Cm_ctrl;filter_Mg_ctrl;freeze_Mg_ctrl;freeze_Mg"
+    },
+    "escore::ii_razao_1_sobre_media_rho::N14": {
+      "b1": 0.0924301791912131,
+      "b2": 0.19308530079436909,
+      "diferenca_entre_estudos_ajustada_extrapolada": 1.509955163716389,
+      "diferenca_entre_estudos_observada": 1.5122297410410237,
+      "dp_nao_tratadas_ajustado": 0.6538700864463857,
+      "dp_nao_tratadas_observado": 0.6538835338381191,
+      "faixa_dx_ajustada": [
+        -0.9238482167348696,
+        0.0
+      ],
+      "gap_nao_tratadas_menos_mupirocina_ajustado": -2.499476330981044,
+      "gap_nao_tratadas_menos_mupirocina_observado": -2.5677069444829,
+      "ordem_GSE119104_ajustada_crescente": "filter_NaCl;filter_Mg;filter_Mg_ctrl;filter_Cm_ctrl;freeze_Mg;freeze_Mg_ctrl;media_Cm;filter_Cm_MPC;filter_Mg_MPC;freeze_Mg_MPC"
+    },
+    "escore::iii_log_razao::N14": {
+      "b1": 0.09702181281196467,
+      "b2": 0.13326976647304634,
+      "diferenca_entre_estudos_ajustada_extrapolada": 1.0191819979772907,
+      "diferenca_entre_estudos_observada": 1.0058261939303863,
+      "dp_nao_tratadas_ajustado": 1.4178425849937706,
+      "dp_nao_tratadas_observado": 1.416295793219404,
+      "faixa_dx_ajustada": [
+        -0.9238482167348696,
+        0.0
+      ],
+      "gap_nao_tratadas_menos_mupirocina_ajustado": -2.9885753120737,
+      "gap_nao_tratadas_menos_mupirocina_observado": -3.011925922417532,
+      "ordem_GSE119104_ajustada_crescente": "filter_Mg;filter_NaCl;filter_Mg_ctrl;filter_Cm_ctrl;freeze_Mg;freeze_Mg_ctrl;media_Cm;filter_Cm_MPC;filter_Mg_MPC;freeze_Mg_MPC"
+    },
+    "escore::k_obs_original::N14": {
+      "b1": -7.226814143069422,
+      "b2": -2.2146398691637135,
+      "diferenca_entre_estudos_ajustada_extrapolada": 20.9662414271977,
+      "diferenca_entre_estudos_observada": 23.71038325867771,
+      "dp_nao_tratadas_ajustado": 1.9604914950590862,
+      "dp_nao_tratadas_observado": 2.3758121415089275,
+      "faixa_dx_ajustada": [
+        -0.9238482167348696,
+        0.0
+      ],
+      "gap_nao_tratadas_menos_mupirocina_ajustado": 6.750014039288469,
+      "gap_nao_tratadas_menos_mupirocina_observado": 3.1258870744991567,
+      "ordem_GSE119104_ajustada_crescente": "media_Cm;filter_Cm_MPC;filter_Mg_MPC;freeze_Mg_MPC;filter_Mg;filter_NaCl;filter_Cm_ctrl;filter_Mg_ctrl;freeze_Mg;freeze_Mg_ctrl"
+    },
+    "media_k_obs": {
+      "b1": 0.9887014707126338,
+      "b2": 0.3073959460656098,
+      "diferenca_entre_estudos_ajustada_extrapolada": -2.4596109473355106,
+      "diferenca_entre_estudos_observada": -2.8340369102872236,
+      "dp_nao_tratadas_ajustado": 0.22922002952366882,
+      "dp_nao_tratadas_observado": 0.29148593231782066,
+      "faixa_dx_ajustada": [
+        -0.9238482167348696,
+        0.0
+      ],
+      "gap_nao_tratadas_menos_mupirocina_ajustado": -0.9325812471384718,
+      "gap_nao_tratadas_menos_mupirocina_observado": -0.43983138520451615,
+      "ordem_GSE119104_ajustada_crescente": "freeze_Mg_ctrl;freeze_Mg;filter_Mg_ctrl;filter_Cm_ctrl;filter_NaCl;filter_Mg;freeze_Mg_MPC;filter_Mg_MPC;filter_Cm_MPC;media_Cm"
+    },
+    "z_c_agregado": {
+      "b1": -7.226814143069422,
+      "b2": -2.2146398691637135,
+      "diferenca_entre_estudos_ajustada_extrapolada": 20.9662414271977,
+      "diferenca_entre_estudos_observada": 23.71038325867771,
+      "dp_nao_tratadas_ajustado": 1.9604914950590855,
+      "dp_nao_tratadas_observado": 2.3758121415089275,
+      "faixa_dx_ajustada": [
+        -0.9238482167348696,
+        0.0
+      ],
+      "gap_nao_tratadas_menos_mupirocina_ajustado": 6.750014039288469,
+      "gap_nao_tratadas_menos_mupirocina_observado": 3.1258870744991567,
+      "ordem_GSE119104_ajustada_crescente": "media_Cm;filter_Cm_MPC;filter_Mg_MPC;freeze_Mg_MPC;filter_Mg;filter_NaCl;filter_Cm_ctrl;filter_Mg_ctrl;freeze_Mg;freeze_Mg_ctrl"
+    }
+  },
+  "n_perm_analise_paralela": 2000,
+  "n_perm_monte_carlo": 100000,
+  "n_ref_ajuste": 559862.0,
+  "r_z_c_com_media_k_obs": -0.999526355697009,
+  "referencias_observadas": {
+    "a_c::i_media_log_k": {
+      "diferenca_medias_entre_estudos_119_menos_77": -0.4921827396584654,
+      "faixa_GSE119104_max_menos_min": 0.6302211391354653,
+      "faixa_GSE119104_sem_media_Cm": 0.3969180470856072,
+      "gap_nao_tratadas_menos_mupirocina": 0.14871213173615222,
+      "mupirocina_max": -0.2643125891178862,
+      "mupirocina_min": -0.30766463853850784
+    },
+    "a_c::ii_razao_1_sobre_media_rho": {
+      "diferenca_medias_entre_estudos_119_menos_77": 0.10635603963002371,
+      "faixa_GSE119104_max_menos_min": 0.34903307968297953,
+      "faixa_GSE119104_sem_media_Cm": 0.34903307968297953,
+      "gap_nao_tratadas_menos_mupirocina": -0.21856020227735118,
+      "mupirocina_max": 0.2650112536347676,
+      "mupirocina_min": 0.11450400494379483
+    },
+    "a_c::iii_log_razao": {
+      "diferenca_medias_entre_estudos_119_menos_77": 0.07068172917978632,
+      "faixa_GSE119104_max_menos_min": 0.25337146573925706,
+      "faixa_GSE119104_sem_media_Cm": 0.25337146573925706,
+      "gap_nao_tratadas_menos_mupirocina": -0.18046531825204037,
+      "mupirocina_max": 0.1983130048638892,
+      "mupirocina_min": 0.1052885042855473
+    },
+    "a_c::k_obs_original": {
+      "diferenca_medias_entre_estudos_119_menos_77": -2.8340369102872227,
+      "faixa_GSE119104_max_menos_min": 2.3692773297041305,
+      "faixa_GSE119104_sem_media_Cm": 0.8436245052050517,
+      "gap_nao_tratadas_menos_mupirocina": -0.4398313852045159,
+      "mupirocina_max": -0.5895810154825374,
+      "mupirocina_min": -0.7969074070573222
+    },
+    "a_c_k_obs": {
+      "diferenca_medias_entre_estudos_119_menos_77": -2.8340369102872227,
+      "faixa_GSE119104_max_menos_min": 2.3692773297041305,
+      "faixa_GSE119104_sem_media_Cm": 0.8436245052050517,
+      "gap_nao_tratadas_menos_mupirocina": -0.4398313852045159,
+      "mupirocina_max": -0.5895810154825374,
+      "mupirocina_min": -0.7969074070573222
+    },
+    "escore::i_media_log_k::N14": {
+      "diferenca_medias_entre_estudos_119_menos_77": 4.054045058527366,
+      "faixa_GSE119104_max_menos_min": 4.718147234408873,
+      "faixa_GSE119104_sem_media_Cm": 3.4877531937140867,
+      "gap_nao_tratadas_menos_mupirocina": -1.7624366186867308,
+      "mupirocina_max": 2.845585655869331,
+      "mupirocina_min": 2.536592505823765
+    },
+    "escore::ii_razao_1_sobre_media_rho::N14": {
+      "diferenca_medias_entre_estudos_119_menos_77": 1.5122297410410237,
+      "faixa_GSE119104_max_menos_min": 3.914593282061759,
+      "faixa_GSE119104_sem_media_Cm": 3.914593282061759,
+      "gap_nao_tratadas_menos_mupirocina": -2.5677069444829,
+      "mupirocina_max": 2.7208939851967897,
+      "mupirocina_min": 1.6206827276136833
+    },
+    "escore::iii_log_razao::N14": {
+      "diferenca_medias_entre_estudos_119_menos_77": 1.0058261939303863,
+      "faixa_GSE119104_max_menos_min": 5.3086863156716255,
+      "faixa_GSE119104_sem_media_Cm": 5.3086863156716255,
+      "gap_nao_tratadas_menos_mupirocina": -3.011925922417532,
+      "mupirocina_max": 2.6274802191565287,
+      "mupirocina_min": 1.8877744629385012
+    },
+    "escore::k_obs_original::N14": {
+      "diferenca_medias_entre_estudos_119_menos_77": 23.71038325867771,
+      "faixa_GSE119104_max_menos_min": 18.343116576001666,
+      "faixa_GSE119104_sem_media_Cm": 6.159025557483784,
+      "gap_nao_tratadas_menos_mupirocina": 3.1258870744991567,
+      "mupirocina_max": 6.9168494970643195,
+      "mupirocina_min": 5.3289132954851945
+    },
+    "media_k_obs": {
+      "diferenca_medias_entre_estudos_119_menos_77": -2.8340369102872236,
+      "faixa_GSE119104_max_menos_min": 2.369277329704131,
+      "faixa_GSE119104_sem_media_Cm": 0.8436245052050511,
+      "gap_nao_tratadas_menos_mupirocina": -0.43983138520451615,
+      "mupirocina_max": 2.0416505356412555,
+      "mupirocina_min": 1.8343241440664713
+    },
+    "z_c_agregado": {
+      "diferenca_medias_entre_estudos_119_menos_77": 23.71038325867771,
+      "faixa_GSE119104_max_menos_min": 18.343116576001666,
+      "faixa_GSE119104_sem_media_Cm": 6.159025557483785,
+      "gap_nao_tratadas_menos_mupirocina": 3.1258870744991567,
+      "mupirocina_max": 6.916849497064318,
+      "mupirocina_min": 5.328913295485195
+    }
+  },
+  "sementes": {
+    "analise_paralela": "comum.semente(2, 10 + 2*j) e +1 para a duplamente centrada",
+    "monte_carlo_correlacoes": "comum.semente(2, 0 + 100*k), k = ordem da chamada",
+    "parcial_estrato": "comum.semente(2, 1 + 100*k)",
+    "rarefacao_alvos": "comum.semente(2, 5000 + 100*lib + 10*alvo + replica)",
+    "rarefacao_grade": "comum.semente(2, 1000 + 100*lib + 10*fracao + replica)"
+  }
+}

@@ -1,0 +1,15 @@
+run,sitio,tipo,ncbi2_inicio,reads_com_sonda_alelo_NC_000913.2,reads_com_sonda_alelo_NC_000913.3,reads_controle_flanco_esq,reads_controle_flanco_dir
+SRR7759813,1,insercao_em_NC_000913.3,257908,88,0,61,13
+SRR7759813,2,substituicao,547694,0,0,0,0
+SRR7759813,3,insercao_em_NC_000913.3,547836,0,1,0,1
+SRR7759813,4,insercao_em_NC_000913.3,1298722,2,0,0,0
+SRR7759813,5,insercao_em_NC_000913.3,2171387,2,0,1,0
+SRR7759813,6,delecao_em_NC_000913.3,3558478,6,0,0,2
+SRR7759813,7,substituicao,3957957,0,1,1,0
+SRR5186138,1,insercao_em_NC_000913.3,257908,104,0,10,20
+SRR5186138,2,substituicao,547694,0,1,0,0
+SRR5186138,3,insercao_em_NC_000913.3,547836,0,0,0,0
+SRR5186138,4,insercao_em_NC_000913.3,1298722,1,0,1,0
+SRR5186138,5,insercao_em_NC_000913.3,2171387,232,0,105,55
+SRR5186138,6,delecao_em_NC_000913.3,3558478,45,0,37,5
+SRR5186138,7,substituicao,3957957,0,14,7,5

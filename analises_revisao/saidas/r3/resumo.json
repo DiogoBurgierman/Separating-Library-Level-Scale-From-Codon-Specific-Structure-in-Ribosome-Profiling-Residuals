@@ -1,0 +1,50 @@
+{
+  "ancoras": {
+    "max_abs_dif_Z1_intra_vs_arquivo": 8.326672684688674e-17,
+    "max_abs_dif_xi_agregado_recalculado_vs_arquivo": 4.440892098500626e-16,
+    "razao_rho_CTA_vs_rib_CTRL": {
+      "rib_CUA": 1.1724920481861407,
+      "rib_CUG": 0.9369922023374885
+    },
+    "sinal_aplicado_ao_Z1_recalculado": 1.0
+  },
+  "contraste_do_intercepto_a_c_filtradas_menos_congeladas": 0.43950853739805873,
+  "contraste_serina_do_termo_latente_intra": 0.45780060265149825,
+  "fracao_variancia_pc1_intra": 0.8302434031245569,
+  "pre_especificacao": {
+    "alfa_unicaudal": 0.05,
+    "codons": [
+      "TCT",
+      "TCC",
+      "TCA",
+      "TCG",
+      "AGT",
+      "AGC"
+    ],
+    "direcao_prevista": "negativa (taxa)",
+    "grupo_alvo": "filtration",
+    "grupo_referencia": "direct_freeze",
+    "n_atribuicoes": 120,
+    "p_minimo": 0.008333333333333333,
+    "residuo": "xi_intra"
+  },
+  "primario": {
+    "auc": 1.0,
+    "contraste": "filtradas vs congeladas",
+    "delta": -0.6741088155126311,
+    "direcao_prevista": "negativa",
+    "familia": "serina",
+    "n_alvo": 7,
+    "n_atribuicoes": 120,
+    "n_referencia": 3,
+    "na_direcao_prevista": true,
+    "p_minimo_possivel": 0.008333333333333333,
+    "p_unicaudal_direcao_oposta": 1.0,
+    "p_unicaudal_exato": 0.008333333333333333,
+    "papel": "primario",
+    "posto_da_atribuicao_observada": 1,
+    "residuo": "xi_intra",
+    "separacao_perfeita": true,
+    "subconjunto": "10 bibliotecas GSE119104"
+  }
+}

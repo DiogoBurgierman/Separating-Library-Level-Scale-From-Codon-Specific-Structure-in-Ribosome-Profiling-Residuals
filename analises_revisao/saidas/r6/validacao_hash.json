@@ -1,0 +1,14 @@
+{
+  "divergencias_hash_x_strings": {
+    "NC_000913.2": 0,
+    "NC_000913.3": 0
+  },
+  "reads_com_casamento_por_busca_de_strings": {
+    "NC_000913.2": 2743,
+    "NC_000913.3": 2743
+  },
+  "reads_verificados_por_referencia": {
+    "NC_000913.2": 4000,
+    "NC_000913.3": 4000
+  }
+}

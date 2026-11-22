@@ -1,0 +1,9 @@
+papel,biblioteca,codon,residuo,direcao_prevista,diferenca_vs_media_das_outras_3,posto_entre_61_na_direcao_prevista
+controle positivo,rib_CUA,CTA,xi_agregado,negativa,-1.4770671797283703,1
+controle positivo,rib_CUA,CTA,D_aditivo_intra,negativa,-1.6979231253868465,1
+controle positivo,rib_CUA,CTA,log_kobs_duplo_centro,negativa,-0.44189821533106194,1
+controle positivo,rib_CUA,CTA,log_rho_duplo_centro,positiva,0.22082402116691466,5
+controle negativo,rib_CUG,CTG,xi_agregado,negativa,-0.04414343076204463,33
+controle negativo,rib_CUG,CTG,D_aditivo_intra,negativa,-0.021261571301772277,31
+controle negativo,rib_CUG,CTG,log_kobs_duplo_centro,negativa,0.001559601932788664,33
+controle negativo,rib_CUG,CTG,log_rho_duplo_centro,positiva,0.07896441301929494,12

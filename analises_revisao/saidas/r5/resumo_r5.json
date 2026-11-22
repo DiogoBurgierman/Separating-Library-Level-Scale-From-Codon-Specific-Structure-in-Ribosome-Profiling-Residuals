@@ -1,0 +1,144 @@
+{
+  "aditiva": {
+    "10_bibliotecas": {
+      "a_c": {
+        "filter_Cm_MPC": 0.22014381602809796,
+        "filter_Cm_ctrl": -0.6234806891769541,
+        "filter_Mg": 0.12052753948360043,
+        "filter_Mg_MPC": 0.0647693164185626,
+        "filter_Mg_ctrl": -0.5171627325661041,
+        "filter_NaCl": -0.08762596217845639,
+        "freeze_Mg": -0.42002285678211626,
+        "freeze_Mg_MPC": 0.012817424453312656,
+        "freeze_Mg_ctrl": -0.5157624962071196,
+        "media_Cm": 1.745796640527177
+      },
+      "correlacao_a_c_z1": -0.9991645894678102,
+      "cos_cargas_posto1_com_vetor_constante": 0.9514280002545139,
+      "fracao_aditivo": 0.752806260307956,
+      "fracao_concorrencia_da_interacao": 0.3082608086607499,
+      "fracao_posto1": 0.8302434031245578,
+      "ganho_posto1_sobre_aditivo": 0.31326498362407385,
+      "interacao_pc1_fracao_da_sq_centrada_em_m": 0.12412989481048846,
+      "n_cargas_posto1_negativas": 61
+    },
+    "9_sem_media_Cm": {
+      "a_c": {
+        "filter_Cm_MPC": 0.41412122053111766,
+        "filter_Cm_ctrl": -0.4295032846739345,
+        "filter_Mg": 0.3145049439866201,
+        "filter_Mg_MPC": 0.2587467209215823,
+        "filter_Mg_ctrl": -0.3231853280630845,
+        "filter_NaCl": 0.10635144232456327,
+        "freeze_Mg": -0.22604545227909667,
+        "freeze_Mg_MPC": 0.20679482895633233,
+        "freeze_Mg_ctrl": -0.32178509170409997
+      },
+      "correlacao_a_c_z1": -0.9913479554376353,
+      "cos_cargas_posto1_com_vetor_constante": 0.8793003930113275,
+      "fracao_aditivo": 0.47273815221253707,
+      "fracao_concorrencia_da_interacao": 0.22983795226868117,
+      "fracao_posto1": 0.6008946665160596,
+      "ganho_posto1_sobre_aditivo": 0.24306047335171865,
+      "interacao_pc1_fracao_da_sq_centrada_em_m": 0.3485485800051215,
+      "n_cargas_posto1_negativas": 58
+    }
+  },
+  "analise_paralela_10": {
+    "p_pc2": 1.0,
+    "razao_sv2_p95": 0.768090564894723
+  },
+  "analise_paralela_9": {
+    "d_selecionado": 2,
+    "fracao_pc1": 0.6008946665160593,
+    "n_componentes_acima_do_nulo": 2,
+    "p95_nulo_pc1": 5.172366039442657,
+    "p_pc1": 0.0004997501249375312,
+    "p_pc2": 0.0004997501249375312,
+    "razao_sv1_p95": 1.5556336375815836,
+    "razao_sv2_p95": 1.3199982259058363,
+    "sv1": 8.04630659684163
+  },
+  "ancora_10_bibliotecas": {
+    "distancia_media_Cm_ao_vizinho": 12.562155897134668,
+    "fracao_pc1": 0.830243403124557,
+    "n_componentes_acima_do_nulo": 1,
+    "p_colheita": 0.6411794102948526,
+    "p_condicao_efeito_principal": 0.0004997501249375312,
+    "p_droga": 0.005497251374312844,
+    "p_lise": 0.22538730634682658,
+    "razao_sv1_p95_nulo": 1.8928479556191038,
+    "verificacao": "escores, espectro e p-valores reproduzem os arquivos congelados (atol 1e-9)",
+    "vizinho_mais_proximo": "filter_Cm_MPC"
+  },
+  "escala_12_6": {
+    "abs_soma_cargas": 7.430890230636338,
+    "amplitude_escores_outras_9": 6.8205342337256845,
+    "biblioteca_extrema": "media_Cm",
+    "cargas_max": -0.04943406641464792,
+    "cargas_min": -0.23645774409893636,
+    "conversao_dz_sobre_abs_soma_cargas": 1.6905317542362508,
+    "conversao_dz_sobre_sqrt61": 1.6084192462997526,
+    "cos_cargas_vetor_constante": 0.9514280002545146,
+    "cos_diferenca_cargas": 0.9542207037029342,
+    "dif_media_k_obs_filter_Mg_pair": 0.6376902720497046,
+    "dif_media_k_obs_filter_Mg_pair_via_sqrt61": 0.6008847230689524,
+    "dif_media_k_obs_freeze_Mg_pair": 0.09573963942500334,
+    "dif_media_k_obs_freeze_Mg_pair_via_sqrt61": 0.10054644452176559,
+    "diferenca_media_k_obs_por_codon": 1.5256528244990788,
+    "diferenca_relativa_k_obs_medio": 0.7472644303545761,
+    "dist_filter_Mg_vs_ctrl": 4.693059713606544,
+    "dist_freeze_Mg_vs_ctrl": 0.785292835739686,
+    "dist_media_Cm_ao_centroide_das_outras_9": 16.041589234182688,
+    "dz_12_6": 12.562155897134668,
+    "dz_em_multiplos_filter_Mg_pair": 2.676751770430989,
+    "dz_em_multiplos_freeze_Mg_pair": 15.996778940816485,
+    "dz_em_sd_das_outras_9": 4.908553149936519,
+    "dz_sobre_amplitude_outras_9": 1.8418140671471492,
+    "k_obs_medio_das_10": 1.8215067196131582,
+    "k_obs_medio_media_Cm": 3.5673033601403343,
+    "k_obs_medio_vizinho": 2.041650535641256,
+    "n_cargas_negativas": 61,
+    "n_codons": 61,
+    "norma_euclidiana_diferenca": 13.16483267276235,
+    "parte_nao_uniforme_do_dz": -1.225197228221731,
+    "parte_uniforme_do_dz": -11.33695866891294,
+    "razao_k_obs_medio": 1.7472644303545761,
+    "rms_diferenca_por_codon": 1.685584100259139,
+    "sd_escores_outras_9": 2.5592380307213607,
+    "soma_cargas": -7.430890230636338,
+    "sqrt_61": 7.810249675906654,
+    "unidade_do_escore": "z_c = sum_i l_i (R_ic - m_i), R = k_obs - k_seq (k_seq comum), sum l_i^2 = 1; unidade = k_obs",
+    "vizinho": "filter_Cm_MPC"
+  },
+  "sobreposicao_mupirocina_9": {
+    "faixa_mupirocina": [
+      -3.8484061735054076,
+      -2.1749910854487196
+    ],
+    "faixa_nao_tratadas": [
+      -2.1770539985858948,
+      3.409383819229924
+    ],
+    "folga_entre_min_none_e_max_mpc": -0.002062913137175215,
+    "mpc_escores": {
+      "filter_Cm_MPC": -3.8484061735054076,
+      "filter_Mg_MPC": -2.681445707945495,
+      "freeze_Mg_MPC": -2.1749910854487196
+    },
+    "nao_tratadas_dentro_da_faixa_mupirocina": [
+      "filter_Mg"
+    ],
+    "none_escores": {
+      "filter_Cm_ctrl": 3.409383819229924,
+      "filter_Mg": -2.1770539985858948,
+      "filter_Mg_ctrl": 2.745032445130576,
+      "filter_NaCl": -0.49858269566285224,
+      "freeze_Mg": 2.289795573232055,
+      "freeze_Mg_ctrl": 2.936267823555812
+    },
+    "pares_none_maior_que_mpc": 17.0,
+    "pares_total": 18,
+    "separacao_perfeita_no_eixo": false
+  }
+}

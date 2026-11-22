@@ -1,0 +1,25 @@
+{
+  "bases_substituidas": 2,
+  "cds_sobrepostos": [
+    "crl (b0240)",
+    "gatC (b2092)",
+    "glpR (b3423)"
+  ],
+  "comprimento_NC_000913.2": 4639675,
+  "comprimento_NC_000913.3": 4641652,
+  "eventos_por_tipo": {
+    "delecao_em_NC_000913.3": 1,
+    "insercao_em_NC_000913.3": 4,
+    "substituicao": 2
+  },
+  "n_cds_artigo": 4141,
+  "n_cds_sobrepostos": 3,
+  "n_eventos": 7,
+  "n_eventos_sobrepostos_a_cds": 3,
+  "reconstrucao_exata_de_NC_000913.3_a_partir_de_NC_000913.2": true,
+  "sha256_fasta": {
+    "NC_000913.2": "2a8e2f78bc145fa82fa325acf7d34dc944612795cee74f793045dc64d782176c",
+    "NC_000913.3": "0a0ba80aa79b2e639bd66b080c026cca5e8c7b38b16ac5b9c78dbe1536eb1c22"
+  },
+  "soma_delta_comprimento": 1977
+}

@@ -1,0 +1,13 @@
+{
+  "ancora.json": "cf6e9e8864375ae38c1e87c17e2a1bdced3b52ff7853fbdd836a137c35f170f7",
+  "autocorrelacao_trilhas.csv": "dcf532d875d04883c8fe13df9d5cc3173d3f17f98fe783788f524fadd074867f",
+  "comparacao_estudos.json": "2f232bed826ccb8acb9308730dc3aef91cbd69912f2beea4c2a2fb0ea9513576",
+  "comparacao_estudos_curvas.csv": "b29532e7ad0f301a3c4eda7b4b7856339c246e85049e3ab97f9e6261a602359c",
+  "perfis.csv": "98b870f2373005c1b101c48a3b0974a3ac7af72708f45a2d57d0df9506da13a0",
+  "picos.csv": "3252a312ed9242a1b934589245700e4fad8cb1ff8552550556a236f32757ef93",
+  "resumo.json": "100973be0fae5648a7e6f5511d78bc168d64bcd8b30a827c8095f870dbdafb5c",
+  "variantes.csv": "a82659c159b1f144c98284aa4b2be6d4eb71d883219c7b9393090d2c3bea4ace",
+  "variantes_por_biblioteca.csv": "e010061b197f93e120c4faebdaa7cbb268ddc4afbf385f4d801838a0f575345f",
+  "variantes_varredura_deslocamento.csv": "7ebac1b7e946a3d19d6036f1bd12d0f228ed6c0da1922ceefbcdabc947f52409",
+  "varredura_codon.csv": "e364c9df126b39ef15e70204c70f0642427749748cd84fba98a9dcff62d33260"
+}

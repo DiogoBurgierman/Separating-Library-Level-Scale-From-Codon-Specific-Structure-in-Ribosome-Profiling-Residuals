@@ -1,0 +1,230 @@
+{
+  "adaptador_usado_5p3p": "CTGTAGGCACCATCAAT",
+  "empirico_primeiros_1e6_reads": {
+    "SRR5186138": {
+      "17nt_apos_o_fim_do_casamento_mais_frequentes": [
+        {
+          "fracao": 0.7774827538377488,
+          "reads": 274659,
+          "seq": "CTGTAGGCACCATCAAT"
+        },
+        {
+          "fracao": 0.10487817996020007,
+          "reads": 37050,
+          "seq": "TGTAGGCACCATCAATA"
+        },
+        {
+          "fracao": 0.039194150599971125,
+          "reads": 13846,
+          "seq": "GTAGGCACCATCAATAT"
+        },
+        {
+          "fracao": 0.02617000738817948,
+          "reads": 9245,
+          "seq": "TAGGCACCATCAATATC"
+        },
+        {
+          "fracao": 0.006923941381448026,
+          "reads": 2446,
+          "seq": "CTGTAGCACCATCAATA"
+        },
+        {
+          "fracao": 0.0031760679599283264,
+          "reads": 1122,
+          "seq": "AGGCACCATCAATATCT"
+        }
+      ],
+      "fracao_com_adaptador_nos_primeiros_reads": 0.948198,
+      "posicao_da_primeira_base_nao_genomica_(mais_comuns)": [
+        {
+          "fracao": 0.25236435896927817,
+          "posicao": 27,
+          "reads": 89152
+        },
+        {
+          "fracao": 0.2279861974087588,
+          "posicao": 26,
+          "reads": 80540
+        },
+        {
+          "fracao": 0.16455259053350582,
+          "posicao": 25,
+          "reads": 58131
+        },
+        {
+          "fracao": 0.15309100482071633,
+          "posicao": 28,
+          "reads": 54082
+        },
+        {
+          "fracao": 0.10718521684731379,
+          "posicao": 29,
+          "reads": 37865
+        }
+      ],
+      "reads_analisados": 1000000,
+      "reads_com_adaptador_(ADAPTADOR_testado)": 948198,
+      "reads_com_prefixo25_casando_uma_vez_no_genoma": 353267,
+      "sufixos_15nt_mais_frequentes": [
+        {
+          "fracao": 0.173086,
+          "reads": 173086,
+          "seq": "CATCAATATCTCGTA"
+        },
+        {
+          "fracao": 0.154607,
+          "reads": 154607,
+          "seq": "CCATCAATATCTCGT"
+        },
+        {
+          "fracao": 0.122753,
+          "reads": 122753,
+          "seq": "ATCAATATCTCGTAT"
+        },
+        {
+          "fracao": 0.109695,
+          "reads": 109695,
+          "seq": "ACCATCAATATCTCG"
+        },
+        {
+          "fracao": 0.100288,
+          "reads": 100288,
+          "seq": "TCAATATCTCGTATG"
+        },
+        {
+          "fracao": 0.06925,
+          "reads": 69250,
+          "seq": "CAATATCTCGTATGC"
+        }
+      ]
+    },
+    "SRR7759813": {
+      "17nt_apos_o_fim_do_casamento_mais_frequentes": [
+        {
+          "fracao": 0.6112991236289478,
+          "reads": 55454,
+          "seq": "CTGTAGGCACCATCAAT"
+        },
+        {
+          "fracao": 0.15697514192801632,
+          "reads": 14240,
+          "seq": "TGTAGGCACCATCAATA"
+        },
+        {
+          "fracao": 0.04892244942953205,
+          "reads": 4438,
+          "seq": "TAGGCACCATCAATAGA"
+        },
+        {
+          "fracao": 0.037524113983354465,
+          "reads": 3404,
+          "seq": "GTAGGCACCATCAATAG"
+        },
+        {
+          "fracao": 0.004817284903268478,
+          "reads": 437,
+          "seq": "AGGCACCATCAATAGAT"
+        },
+        {
+          "fracao": 0.003692884307997575,
+          "reads": 335,
+          "seq": "CTGTAGGCACCATCCAT"
+        }
+      ],
+      "fracao_com_adaptador_nos_primeiros_reads": 0.945309,
+      "posicao_da_primeira_base_nao_genomica_(mais_comuns)": [
+        {
+          "fracao": 0.2784765474287604,
+          "posicao": 25,
+          "reads": 25262
+        },
+        {
+          "fracao": 0.17643168164030204,
+          "posicao": 26,
+          "reads": 16005
+        },
+        {
+          "fracao": 0.1212588877252935,
+          "posicao": 27,
+          "reads": 11000
+        },
+        {
+          "fracao": 0.07618365209722758,
+          "posicao": 28,
+          "reads": 6911
+        },
+        {
+          "fracao": 0.06744198864575869,
+          "posicao": 29,
+          "reads": 6118
+        }
+      ],
+      "reads_analisados": 1000000,
+      "reads_com_adaptador_(ADAPTADOR_testado)": 945309,
+      "reads_com_prefixo25_casando_uma_vez_no_genoma": 90715,
+      "sufixos_15nt_mais_frequentes": [
+        {
+          "fracao": 0.086162,
+          "reads": 86162,
+          "seq": "GATCGGAAGAGCACA"
+        },
+        {
+          "fracao": 0.06766,
+          "reads": 67660,
+          "seq": "ATCGGAAGAGCACAC"
+        },
+        {
+          "fracao": 0.063035,
+          "reads": 63035,
+          "seq": "ATCAATAGATCGGAA"
+        },
+        {
+          "fracao": 0.058443,
+          "reads": 58443,
+          "seq": "AGCACACGTCTGAAC"
+        },
+        {
+          "fracao": 0.055012,
+          "reads": 55012,
+          "seq": "AAGAGCACACGTCTG"
+        },
+        {
+          "fracao": 0.051708,
+          "reads": 51708,
+          "seq": "GAAGAGCACACGTCT"
+        }
+      ]
+    }
+  },
+  "geo_protocolo": {
+    "GSE119104": {
+      "amostra": "GSM3358141",
+      "linhas": [
+        "!Sample_extract_protocol_ch1 = Cell pellets were cryogenically pulverized in a Spex 6870 freezer mill; 5 cycles of 1 min at 5 Hz with 1 min cooling. Cell lysates were clarified, digested with nucleases, and monosomes were purified over a sucrose gradient.",
+        "!Sample_extract_protocol_ch1 = Ribosome footprints and total RNA fragments were PAGE purified, ligated to a linker using RNA ligase T2, converted to DNA using RT, circularized, and PCR amplified.",
+        "!Sample_extract_protocol_ch1 = OTHER (ribosome profiling)",
+        "!Sample_data_processing = Reads with N bases or Phred < 10 were dropped. The linker sequence was trimmed and reads mapping to rRNA or tRNA sequences were discarded. The remaining reads were mapped to the E. coli K-12 MG1655 genome version 2 with bowtie allowing two mismatches.",
+        "!Sample_data_processing = Genome_build: NC_000913ver2",
+        "!Sample_data_processing = Supplementary_files_format_and_content: WIG files of ribosome occupancy, assigned to the 3'-end of reads, normalized by the total number of reads in the library.",
+        "!Sample_instrument_model = Illumina HiSeq 2500"
+      ]
+    },
+    "GSE77617": {
+      "amostra": "GSM2462935",
+      "linhas": [
+        "!Sample_extract_protocol_ch1 = Extraction was performed as described previously (Li et al., 2012; Oh et al., 2011). For ribosome profiling, 200 mL of cell culture were filtered rapidly and the resulting cell pellet was flash-frozen in liquid nitrogen and combined with 650 ÂµL of frozen lysis buffer (10 mM MgCl2, 100mM NH4Cl, 20mM Tris-HCl pH 8.0, 0.1% Nonidet P40, 0.4% Triton X-100, 100 U/mL DNase I (Roche), 1mM chloramphenicol). Cells were pulverized in 10mL canisters pre-chilled in liquid nitrogen. Lysate containing 0.5 mg of RNA was digested for 1 h with 750 U of micrococcal nuclease (Roche) at 25Â°C. The ribosome-protected RNA fragments were isolated using a sucrose gradient followed by hot acid phenol extraction. For mRNA-seq and DMS-seq, cells were pelleted by centrifuging for 2 min at 8000rpm. Total RNA was then hot acid phenol extracted. Ribosomal RNA and small RNA were removed w",
+        "!Sample_extract_protocol_ch1 = The ribosome footprints and fragmented mRNA were ligated to miRNA cloning linker-1 (IDT) using truncated T4 RNA ligase 2 K227Q. The ligated RNA fragments were reverse transribed using the primer 5Phos/GATCGTCGGACTGTAGAACTCTGAACCTGTCGGTGGTCGCC GTATCATT/iSp18/CACTCA/iSp18/CAAGCAGAAGACGGCATACGAATTGATG GTGCCTACAG. The resulting cDNA was circularized with CircLigase (Epicentre) and PCR amplification was done as described previously (Ingolia et al., 2009).",
+        "!Sample_data_processing = Library strategy: ribosome profiling",
+        "!Sample_data_processing = Basecalls performed using Casava versions 1.6 or 1.7.",
+        "!Sample_data_processing = Sequenced reads were trimmed for adaptor sequence.",
+        "!Sample_data_processing = Trimmed reads were sequentially aligned using Bowtie v0.12.7 to E. coli rRNA and noncoding RNA allowing one mismatch. Reads aligning to any of these indices were discarded.",
+        "!Sample_data_processing = The remaining reads were aligned using Bowtie v0.12.7 against E. coli MG1655 genome using parameters -v1 -m2 -k1.",
+        "!Sample_data_processing = Bowtie alignments against the E. coli genome were converted to wiggle files. For ribosome footprints and mRNA-seq, the position of each alignment is distributed into several nucleotides in the center of each read. For each read, the center residues that are at least 10 nucleotides away from either ends were given the same score, which is weighted by the length of the fragment [Oh et al,. Cell 147, 1295 (2011)]. Scores therefore represent the number of read alignments attributed to each genomic position under each scoring scheme. For DMS-seq, the position of each alignment was the position immediately 5' of the 5' end of the read.",
+        "!Sample_data_processing = Genome_build: NC000913.2",
+        "!Sample_data_processing = Supplementary_files_format_and_content: Wiggle files with two columns: first column containing chromosome positions and second column containing the number of reads mapped to the position (see publication for details).",
+        "!Sample_instrument_model = Illumina HiSeq 4000"
+      ]
+    }
+  },
+  "sobreposicao_parcial_minima_nt": 5
+}

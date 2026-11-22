@@ -1,0 +1,11 @@
+biblioteca,Z1_orientado,harvest,drug,lysis
+media_Cm,-14.437430310764418,filtration,chloramphenicol,Cm
+filter_Mg,-0.5238249965594133,filtration,none,MgCl2_150mM
+filter_NaCl,1.117118147034529,filtration,none,NaCl_1M
+filter_Mg_ctrl,4.169234717047131,filtration,none,MgCl2_150mM
+filter_Mg_MPC,-0.6462943176151157,filtration,mupirocin,MgCl2_150mM
+filter_Cm_ctrl,4.945259820095934,filtration,none,Cm
+filter_Cm_MPC,-1.8752744136297503,filtration,mupirocin,Cm
+freeze_Mg_ctrl,4.128029367661173,direct_freeze,none,MgCl2_150mM
+freeze_Mg_MPC,-0.21955454519154988,direct_freeze,mupirocin,MgCl2_150mM
+freeze_Mg,3.3427365319214872,direct_freeze,none,MgCl2_150mM

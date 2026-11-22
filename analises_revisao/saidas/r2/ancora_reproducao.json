@@ -1,0 +1,20 @@
+{
+  "aprovada": true,
+  "ii_vs_1_sobre_coluna_rho_csv_max_dif_relativa": 2.61859404133187e-16,
+  "max_abs_dif_k_obs": 8.881784197001252e-16,
+  "max_abs_dif_n": 0.0,
+  "max_abs_dif_n_genes_kept": 0,
+  "max_abs_dif_n_rate_observations": 0,
+  "max_abs_dif_rho": 8.881784197001252e-16,
+  "max_abs_dif_z_intra_GSE119104_vs_arquivo": 5.329070518200751e-15,
+  "max_abs_dif_z_intra_projecao_de_k_reextraido": 5.329070518200751e-15,
+  "max_abs_dif_z_pooled_projecao_vs_arquivo": 1.0658141036401503e-14,
+  "rapido_vs_por_gene_contadores_iguais": true,
+  "rapido_vs_por_gene_max_dif_relativa": {
+    "k_obs": 7.263849573719538e-16,
+    "log_k": 8.967064256710356e-14,
+    "n": 0.0,
+    "rho": 4.754676865688674e-16
+  },
+  "tolerancia": 1e-09
+}
